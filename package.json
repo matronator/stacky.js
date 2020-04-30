@@ -1,6 +1,6 @@
 {
   "name": "stacky.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Stacking scrolling navigation, modern alternative to Slinky.js without no dependencies",
   "main": "index.js",
   "scripts": {
