@@ -1,11 +1,15 @@
-# Stacky.js #
+# Stacky.js
 
 Create beautiful scrolling driven navigation lists with stacking headers that remain visible at all times. No dependency required - **just pure JavaScript!**
 
-## Getting Started ##
+## Getting Started
+
+### npm
+
+`npm install stacky.js`
 
 
-### Example ###
+### Example
 
 A minimal HTML structure for Stacky to work with can look something like this:
 
@@ -28,6 +32,6 @@ A minimal HTML structure for Stacky to work with can look something like this:
 </main>
 ```
 
-## Credits ##
+## Credits
 
 Original jQuery plugin: [Slinky.js](https://github.com/iclanzan/slinky)
