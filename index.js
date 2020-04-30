@@ -6,7 +6,7 @@ class Stacky {
 
   init() {
     let i = 0
-    let j = headers.length - 1
+    let j = this.headers.length - 1
 
     this.headers.forEach(header => {
       header.setAttribute(`data-stacky-id`, `${i}`)
@@ -29,7 +29,7 @@ class Stacky {
 
     window.addEventListener(`scroll`, el => {
       this.headerArray.forEach(element => {
-        updateStack(element)
+        this.updateStack(element)
       })
     })
   }
