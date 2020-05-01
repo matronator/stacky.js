@@ -68,12 +68,3 @@ class Stacky {
     }
   }
 }
-
-export {
-  Stacky as default,
-  Stacky
-};
-
-if (typeof window !== 'undefined') {
-  window.Stacky = Stacky;
-}

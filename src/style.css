@@ -40,17 +40,13 @@ body {
   height: 100%;
   line-height: 1.5;
 }
-
-/* DEV */
-.devtools {
-  position: fixed;
-  top: 0;
-  left: 0;
+main {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
-
 section, header {
   width: 100%;
-  max-width: 400px;
+  max-width: 480px;
 }
 
 section {
@@ -136,7 +132,9 @@ small {
 
 code {
   font-family: Menlo, "Ubuntu Mono", Consolas, "Courier New", monospace;
-  font-size: .9em;
+  font-size: .8em;
+  padding: .2em;
+  background-color: #eaeaea;
 }
 
 .btn {
