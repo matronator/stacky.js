@@ -12,11 +12,25 @@ You can see demo here: https://matronator.github.io/stacky.js/
 
 #### NPM
 
-Instal with `npm install stacky.js` and import into your project `import Stacky from "stacky.js"`
+Instal with
+
+```
+npm install stacky.js
+```
+
+and import into your project
+
+```javascript
+import Stacky from "stacky.js"
+```
 
 #### Browser
 
-Download the files from the [dist folder](https://github.com/matronator/stacky.js/tree/master/dist) and include in your HTML file `<script src="path/to/stacky.min.js"></script>`
+Download the files from the [dist folder](https://github.com/matronator/stacky.js/tree/master/dist) and include in your HTML file
+
+```html
+<script src="path/to/stacky.min.js"></script>
+```
 
 ### Example
 
@@ -48,9 +62,15 @@ const stacky = new Stacky()
 stacky.init()
 ```
 
-Stacky.js initializes on `<header>` tags by default, but you can change it to any CSS selector you want.
+Stacky.js looks for `<header>` tags by default, but you can change it to any CSS selector you want.
 
-For example if you want initialize on headings with a specific class, like `<h2 class="stack-me">Heading</h2>` you just have to specify the selector like this:
+For example if you want to use Stacky on headings with some custom class like this one:
+
+```html
+<h2 class="stack-me">Heading</h2>
+```
+
+You just have to specify the selector when declaring Stacky like so:
 
 ```javascript
 const stacky = new Stacky('h2.stack-me')
