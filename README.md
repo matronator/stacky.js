@@ -26,7 +26,7 @@ import Stacky from "stacky.js"
 
 #### Browser
 
-Download the files from the [dist folder](https://github.com/matronator/stacky.js/tree/master/dist) and include in your HTML file
+Download files from the [dist folder](https://github.com/matronator/stacky.js/tree/master/dist) and include in your HTML file
 
 ```html
 <script src="path/to/stacky.min.js"></script>
