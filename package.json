@@ -1,6 +1,6 @@
 {
   "name": "stacky.js",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Stacking scrolling navigation, modern alternative to Slinky.js without no dependencies",
   "main": "index.js",
   "scripts": {
@@ -10,6 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/matronator/stacky.js.git"
   },
+  "module": "index.mjs",
   "keywords": [
     "sticky",
     "slinky",

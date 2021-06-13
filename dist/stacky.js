@@ -68,3 +68,7 @@ class Stacky {
     }
   }
 }
+
+if (typeof window !== 'undefined') {
+  window.Stacky = Stacky;
+}

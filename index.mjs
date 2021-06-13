@@ -69,4 +69,4 @@ class Stacky {
   }
 }
 
-module.exports.Stacky = Stacky
+export { Stacky }
