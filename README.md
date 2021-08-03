@@ -1,3 +1,5 @@
+#### Notice: If you like this project, please consider [donating](https://github.com/matronator#support). The battery on my macbook died and I need to get it replaced to be able to work, but a battery replacement for macbook is kinda expensive and money's little tight right now. Any help would be much appretiated! Thank you :)
+
 # Stacky.js
 
 Create beautiful scrolling driven navigation lists with stacking headers that remain visible at all times.
